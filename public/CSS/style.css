@@ -1,0 +1,113 @@
+body{
+    background-color: #52065c;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;   
+    margin: 0;
+    width: 100%;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 131px;
+    width: 100px;
+    height: auto;
+}
+
+header{
+
+}
+.main{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    margin-top: 120px;
+}
+
+.main-search{
+    display: flex;
+    align-items: center;
+    margin-left: -21px;
+    justify-content: center;
+    width: 286px;
+    height: 92px;
+    background: #1A093C;
+    border-radius: 57.5px;
+}
+
+.main-search-escribir{
+    width: 238px;
+    height: 59px;
+    background: #1A093C;
+    border-radius: 89px;
+    color: gray;
+    border-color: gray;
+}
+
+.main-search-buscar{
+    background: url(https://www.pngwing.com/public/css/search-icon.svg) no-repeat center center;
+    border: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background: #1A093C;
+    border-radius: 50px;
+}
+
+.footer-element{
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 100px;
+    background: #f0f0f0;
+    border-radius: 57.5px;
+    margin-top: 5px;
+    margin-block-end: 15px;
+    margin-block-start: 15px;
+}
+
+.footer-element-contain{
+    margin-top: 9px;
+    background-color: hotpink;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+.footer-element-name{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin
+}
+
+.footer-element-power{
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 80px;
+    height: auto;
+    background-color: #FCCF2C;
+    border-radius: 10px;
+}
+
+.footer img{
+    width: 60px;
+    height: auto;
+}
+
+.footer button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
