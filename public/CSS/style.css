@@ -4,6 +4,9 @@ body{
     color: #FFFFFF;   
     margin: 0;
     width: 100%;
+    background-image: url(../IMG/background-pokemon.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .logo{
@@ -12,10 +15,10 @@ body{
     left: 131px;
     width: 100px;
     height: auto;
+    filter: invert(100%);
 }
 
 header{
-
 }
 .main{
     width: 80vw;
@@ -42,7 +45,7 @@ header{
     background: #1A093C;
     border-radius: 89px;
     color: gray;
-    border-color: gray;
+    border: solid gray;
 }
 
 .main-search-buscar{
@@ -80,14 +83,21 @@ header{
     height: 80px;
     display: flex;
     align-items: center;
-   justify-content: center;
+    justify-content: center;
 }
 
 .footer-element-name{
     color: black;
     display: flex;
     flex-direction: column;
-    margin
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.footer-element-name h2{
+    margin-bottom: 0px;
+    margin: 5px;
 }
 
 .footer-element-power{
